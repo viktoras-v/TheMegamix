@@ -1,0 +1,11 @@
+#cloud-config
+package_update: true
+packages:
+  - git
+  - ansible
+#runcmd:
+#  - echo "=== Cloning playbooks repo ==="
+#  - git clone https://github.com/yourorg/your-playbooks.git /home/ubuntu/playbooks
+#  - chown -R ubuntu:ubuntu /home/ubuntu/playbooks
+#  - echo "=== Running playbook ==="
+#  - ansible-playbook /home/ubuntu/playbooks/site.yml -i /home/ubuntu/playbooks/inventory.ini

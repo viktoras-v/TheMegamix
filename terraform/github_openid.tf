@@ -30,7 +30,7 @@ resource "aws_iam_role" "github_actions" {
           "token.actions.githubusercontent.com:aud" = "sts.amazonaws.com"
         }
         StringLike = {
-          "token.actions.githubusercontent.com:sub" = "repo:viktoras.v/TheMegamix:ref:refs/heads/main"
+          "token.actions.githubusercontent.com:sub" = "repo:viktoras-v/TheMegamix:ref:refs/heads/main"
         }
       }
     }]
